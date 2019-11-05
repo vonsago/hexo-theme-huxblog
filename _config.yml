@@ -5,6 +5,12 @@
 include:
     - .nojekyll
 
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  decodeEntities: false
+
 # Site
 title: Vassago's Blog
 subtitle: Pure Thinking!
@@ -73,7 +79,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 friends: [
     {
         title: "Vassago's Blog",
-        href: "http"
+        href: "http://vongola.tk"
     },{
         title: "Hux Blog",
         href: "http://huangxuan.me"
