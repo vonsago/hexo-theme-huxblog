@@ -2,6 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 author: "Von"
-header-img: 
+subtitle: ""
+header-img:
 tags:
 ---

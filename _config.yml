@@ -31,19 +31,16 @@ keyword: ""
 
 # SNS settings
 # RSS: false
-weibo_username:     Demonbane
-zhihu_username:     Demonbane
 github_username:    vonsago
 twitter_username:   V_assago
-facebook_username:  demonbane.cn
-linkedin_username:  demonbane
+facebook_username:  vongo4206
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 # Disqus settings
-disqus_username: hexo-theme-huxblog
+disqus_username: vongola
 
 # Duoshuo settings
 # duoshuo_username: kaijun
@@ -55,8 +52,10 @@ duoshuo_share: true                     # set to false if you want to use Commen
 # Baidu Analytics
 ba_track_id: aa14d9ec8097f7630cc7c68cd0c169a8
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_track_id: 'UA-151521286-1'            # Format: UA-xxxxxx-xx
 ga_domain: vongola.tk
+# Google AdSence
+ga_adsence_id: ca-pub-7806756021659460
 
 
 # Sidebar settings
