@@ -48,4 +48,12 @@
 
     <!-- ga & ba script hoook -->
     <script></script>
+
+    <!-- Google AdSence -->
+
+    <% if (config.ga_adsence_id) { %>
+    <script data-ad-client='<%= config.ga_adsence_id %>' async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <% } %>
+
+
 </head>

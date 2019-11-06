@@ -1,10 +1,11 @@
 ---
-title: Build-Static-Blog
+title: 搭建博客
 author: Von
 date: 2019-11-03 19:44:44
 subtitle: "\" 搭建个人博客，全程免费\""
 header-img: bg.jpeg
 toc: true
+top: 10
 tags:
     - web
 ---
@@ -12,7 +13,7 @@ tags:
 <!-- toc -->
 
 # Build Blog
-> Gitpage + Hexo 搭建个人博客，全程免费。
+> Gitpage + Hexo 搭建个人博客，全程免费，记录注意事项。
 ## 总览
 
 - [Gitpage](https://pages.github.com/) 慷慨的 github 给我们的网站托管
@@ -76,6 +77,8 @@ hexo clean && hexo deploy
 
 - `hexo deploy`后会覆盖自定义域名后生成的`CNAME`文件。把要保存的文件放在`source`文件夹里。
 
+- 我更改了一些`_config.yaml`配置后，发布成功，github 更新成功，本地 serve 也都正常，但是页面仍旧是之前的。尝试删除 `.nojekyll`文件和`.deploy_git`目录后再次发布成功。
+
 ## 站长工具
 
 **百度统计**
@@ -93,6 +96,9 @@ https://www.google.co.in/adsense/start/#/?modal_active=none
 
 代码写在`/hexo-theme-huxblog/themes/huxblog/layout/_partial/footer.ejs`
 
+要注意的是：写在`<head></head>`之间
+
+一审失败，再接再厉hhh
 
 ## 其他
 ### 接入评论功能

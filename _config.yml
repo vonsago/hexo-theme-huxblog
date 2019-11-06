@@ -1,9 +1,6 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
-# Fix js 404
-include:
-    - .nojekyll
 
 toc:
   maxdepth: 3
@@ -13,7 +10,7 @@ toc:
 
 # Site
 title: Vassago's Blog
-subtitle: Pure Thinking!
+subtitle: Pure Thinking
 author: von
 language:
 timezone:
@@ -22,7 +19,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://vongola.tk/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 #Custom Setting Start
