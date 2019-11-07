@@ -1,9 +1,7 @@
 ---
-title: VIP会员视频解析链接
+title: VIP会员视频链接
 author: Von
 date: 2019-11-05 16:40:41
-subtitle: "VIP会员视频解析链接"
-header-img: bg.jpg
 tags:
     - web
 ---

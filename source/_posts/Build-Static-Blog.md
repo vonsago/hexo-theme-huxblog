@@ -77,7 +77,8 @@ hexo clean && hexo deploy
 
 - `hexo deploy`后会覆盖自定义域名后生成的`CNAME`文件。把要保存的文件放在`source`文件夹里。
 
-- 我更改了一些`_config.yaml`配置后，发布成功，github 更新成功，本地 serve 也都正常，但是页面仍旧是之前的。尝试删除 `.nojekyll`文件和`.deploy_git`目录后再次发布成功。
+- 我更改了一些`_config.yaml`配置后`permalink: :title/`，发布成功，github 更新成功，本地 serve 也都正常，但是页面仍旧是之前的。尝试删除 `.nojekyll`文件和`.deploy_git`目录后再次发布成功。
+
 
 ## 站长工具
 

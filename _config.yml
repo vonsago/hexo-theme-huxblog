@@ -37,6 +37,8 @@ keyword: ""
 github_username:    vonsago
 twitter_username:   V_assago
 facebook_username:  vongo4206
+stackoverflow_username:  7369431/vassago
+
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
@@ -44,11 +46,6 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Disqus settings
 disqus_username: vongola
-
-# Duoshuo settings
-# duoshuo_username: kaijun
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 # Analytics settings

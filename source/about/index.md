@@ -7,6 +7,9 @@ header-img: "img/about-bg.jpg"
 comments: true
 ---
 
+版权声明：遵循 [CC 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) 版权协议，转载请附上原文出处链接和本声明。
+
+---
 
 >观察，思考，总结，实践。
 

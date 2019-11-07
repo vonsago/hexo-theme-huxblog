@@ -4,7 +4,6 @@ title: byebye-2019
 subtitle: " \"Hello World, Hello Blog\""
 date: 2019-11-02 16:13:58
 author: Von
-header-img: "post-bg-2019.jpeg"
 top: true
 tags:
     - byebye-2019
