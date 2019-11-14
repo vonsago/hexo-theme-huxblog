@@ -99,8 +99,30 @@ https://www.google.co.in/adsense/start/#/?modal_active=none
 
 要注意的是：写在`<head></head>`之间
 
-一审失败，再接再厉hhh
+一审失败，提示我只有2篇帖子，需要有更多的帖子，并且运行几个月后再来试试。
 
+## 站点地图
+*让百度，Google收录自己的博客站点*
+### 百度
+[地址链接](https://ziyuan.baidu.com/site/index)
+验证主要有三种方法：
+- 1.文件验证 我最终是通过这个方式通过的。试了一下不能直接复制里面的内容，以同名文件的形式传到 github 上；须上传下载的原文件才可以。
+- 2.HTML标签验证 没试过
+- 3.CNAME验证 开始通过这个方式验证，看破了帮助，死活过不去，于是乎换成了第一种
+
+### Google
+[地址链接](https://search.google.com/search-console/about?utm_source=wmx&utm_medium=wmx-welcome#utm_source=zh-TW-wmxmsg&utm_medium=wmxmsg&utm_campaign=bm&authuser=0)
+也可以在Google搜索中输入`site:[your_domain]` like `site:vongola.tk`
+没收录的话就会提示你去点击链接`请使用 Google Search Console`
+验证方式：
+在 DNS 解析加入提示信息的记录即可
+| 记录类型 | 记录值 |
+| :---:    | :---:  |
+| TXT      | google-site-verification=xxx |
+
+```
+Tips: 里面还提供了测试网站速度的工具，很有趣
+```
 ## 其他
 ### 接入评论功能
 https://disqus.com/ -> I want to install Disqus on my site -> 填写信息 重要的是Websit Name 要求全网唯一，设定后不可改变 -> 设置`_config.yaml`的参数`disqus_username: [上一步的Websit Name]`
