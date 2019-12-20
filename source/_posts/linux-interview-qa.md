@@ -135,6 +135,72 @@ linux 中权限的粒度有 拥有者 、群组 、其它组 三种
 ## dmesg
 
 被用于检查和控制内核的环形缓冲区。
-开机信息保存在`/var/log/dmesg`文件里
+Linux 启动信息保存在`/var/log/dmesg`文件里
 
-## 
+## 显示系统中各个分区中inode的使用情况
+
+`df -i`
+
+## 显示Linux系统中注册的用户数
+
+`wc --lines /etc/passwd`
+
+## kill 9 的含义
+
+sends SIGTERM to the process whose PID IS 9
+
+## 今天午夜运行命令 cmd1
+
+`echo "cmd1" | at midnight`
+
+## 用户的变量设置
+
+`/etc/profile`
+
+## 如果cmd1成功执行，则执行cmd2命令
+
+`cmd1&&cmd2`
+
+## 定义网卡的I/O地址
+
+`cat /proc/ioports`
+
+## Linux中，提供TCP/IP包过滤功能的软件
+
+`iptables`
+
+## 暂停一个打印队列
+
+`lpc`
+
+## 哪个协议使用了二个以上的端口
+
+`FTP`
+
+## 哪个命令可以压缩部分文件
+
+`tar -czvf filename.tgz *`
+
+## 解压缩tar文件
+
+`tar -xzvf filename.tgz`
+
+## ping使用的协议是
+
+`ICMP`
+
+## 查看网络故障的命令
+
+`ping` `telnet` `netstat`
+
+## 拨号上网使用的协议
+
+`PPP`
+
+## 定义了网络服务的端口
+
+`/etc/services`
+
+## 查看网卡的中断
+
+`cat /proc/interrupts`
