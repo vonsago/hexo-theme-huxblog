@@ -10,7 +10,7 @@ tags:
 <!-- toc -->
 
 # Code Template
-## Python多线程写入文件(multiprocessing template)
+## Python多进程写入文件(multiprocessing template)
 [参考文档](https://docs.python.org/2/library/multiprocessing.html?highlight=apply_async#multiprocessing.pool.multiprocessing.Pool.apply_async)
 ```
 #multiprocessing template

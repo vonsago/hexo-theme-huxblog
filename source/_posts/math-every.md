@@ -150,4 +150,12 @@ a^(n-1) ≡ 1 (mod m)  or
 [知行执行](http://www.cnblogs.com/zhixingqiezhixing/archive/2012/04/03/2430676.html)
 [wikipedia](https://www.wikipedia.org/)
 
+## 必须掌握-微积分基础
+
+**导数**
+![](导数.png)
+
+**四则运算**
+
+
 ## 特征向量新公式

@@ -204,3 +204,14 @@ sends SIGTERM to the process whose PID IS 9
 ## 查看网卡的中断
 
 `cat /proc/interrupts`
+
+---
+
+## CPU
+
+CPU 的全称是 Central Processing Unit
+CPU 的核心是从程序或应用程序获取指令并执行计算。此过程可以分为三个关键阶段：提取，解码和执行。CPU从系统的主存中提取指令，然后解码该指令的实际内容，然后再由 CPU 的相关部分执行该指令。
+几乎所有的冯·诺伊曼型计算机的CPU，其工作都可以分为5个阶段：取指令、指令译码、执行指令、访存取数、结果写回
+
+## MySQL
+
