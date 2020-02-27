@@ -116,6 +116,7 @@ https://www.google.co.in/adsense/start/#/?modal_active=none
 没收录的话就会提示你去点击链接`请使用 Google Search Console`
 验证方式：
 在 DNS 解析加入提示信息的记录即可
+
 | 记录类型 | 记录值 |
 | :---:    | :---:  |
 | TXT      | google-site-verification=xxx |
