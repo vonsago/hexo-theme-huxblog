@@ -1,21 +1,40 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "demo",
   "private": true,
-  "hexo": {
-    "version": "3.9.0"
-  },
+  "description": "A simple starter using gatsby-theme-terminal",
+  "version": "0.1.0",
+  "author": "Ars Von Roseregen<ars.von.roseregem@gmail.com>",
   "dependencies": {
-    "hexo": "^3.2.0",
-    "hexo-deployer-git": "^0.1.0",
-    "hexo-generator-archive": "^0.1.4",
-    "hexo-generator-category": "^0.1.3",
-    "hexo-generator-index-pin-top": "^0.2.2",
-    "hexo-generator-tag": "^0.2.0",
-    "hexo-renderer-ejs": "^0.2.0",
-    "hexo-renderer-marked": "^0.2.10",
-    "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.2.0",
-    "hexo-toc": "^1.1.0"
-  }
+    "@mdx-js/mdx": "^1.5.5",
+    "@mdx-js/react": "^1.5.5",
+    "@pauliescanlon/gatsby-theme-terminal": "*",
+    "date-fns": "^2.10.0",
+    "gatsby": "^2.19.7",
+    "gatsby-plugin-google-analytics": "^2.2.4",
+    "gatsby-plugin-mdx": "^1.0.73",
+    "gatsby-source-filesystem": "^2.1.46",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not dead",
+    "IE 11"
+  ]
 }
